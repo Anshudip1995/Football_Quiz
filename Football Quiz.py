@@ -1,4 +1,5 @@
 import pandas as pd
+import streamlit as st
 League = (input("Enter the League Name: "))
 df = pd.read_excel(r'C:\Users\anshu\OneDrive\Desktop\Python_projects\Football Quiz.xlsx', League)
 Q = input("The number of Questions is:")
